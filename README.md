@@ -67,6 +67,9 @@ products
 
 ```
 
+Application logs:
+storage/logs/laravel.log
+
 cp .env.example .env
 DB_CONNECTION=mysql
 DB_DATABASE=flash
@@ -83,3 +86,6 @@ Run specific tests:
 php artisan test --filter=HoldTest
 php artisan test --filter=OrderTest
 php artisan test --filter=PaymentWebhookTest
+
+Postman Collection
+GetPayIn.postman_collection.json
