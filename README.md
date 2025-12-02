@@ -87,9 +87,10 @@ storage/logs/laravel.log
 
 ### **Feature test**
 
--   Run all tests:
+Run all tests:
+
 -   php artisan test
--   Run specific tests:
+    Run specific tests:
 -   php artisan test --filter=HoldTest
 -   php artisan test --filter=OrderTest
 -   php artisan test --filter=PaymentWebhookTest
