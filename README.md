@@ -67,25 +67,33 @@ products
 
 ```
 
-Application logs:
+### **Application logs:**
+
 storage/logs/laravel.log
 
-cp .env.example .env
-DB_CONNECTION=mysql
-DB_DATABASE=flash
-DB_USERNAME=root
-DB_PASSWORD=
+### **database**
 
-php artisan migrate --seed
-php artisan queue:work
-php artisan schedule:work
+-   cp .env.example .env
+-   DB_CONNECTION=mysql
+-   DB_DATABASE=flash
+-   DB_USERNAME=root
+-   DB_PASSWORD=
 
-Run all tests:
-php artisan test
-Run specific tests:
-php artisan test --filter=HoldTest
-php artisan test --filter=OrderTest
-php artisan test --filter=PaymentWebhookTest
+### **artisan command**
 
-Postman Collection
-GetPayIn.postman_collection.json
+-   php artisan migrate --seed
+-   php artisan queue:work
+-   php artisan schedule:work
+
+### **Feature test**
+
+-   Run all tests:
+-   php artisan test
+-   Run specific tests:
+-   php artisan test --filter=HoldTest
+-   php artisan test --filter=OrderTest
+-   php artisan test --filter=PaymentWebhookTest
+
+## **Postman Collection **
+
+-   GetPayIn.postman_collection.json
