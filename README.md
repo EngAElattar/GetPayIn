@@ -54,7 +54,7 @@ The system enforces correctness under concurrent access using:
 
 ---
 
-## 🛠 How to Run the Project
+## How to Run the Project
 
 ### Clone & Install Dependencies
 
@@ -67,9 +67,13 @@ products
 
 ```
 
+---
+
 ### **Application logs:**
 
 storage/logs/laravel.log
+
+---
 
 ### **database**
 
@@ -79,11 +83,15 @@ storage/logs/laravel.log
 -   DB_USERNAME=root
 -   DB_PASSWORD=
 
+---
+
 ### **artisan command**
 
 -   php artisan migrate --seed
 -   php artisan queue:work
 -   php artisan schedule:work
+
+---
 
 ### **Feature test**
 
@@ -96,6 +104,8 @@ Run specific tests:
 -   php artisan test --filter=HoldTest
 -   php artisan test --filter=OrderTest
 -   php artisan test --filter=PaymentWebhookTest
+
+---
 
 ## **Postman Collection**
 
