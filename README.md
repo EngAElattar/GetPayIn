@@ -90,11 +90,13 @@ storage/logs/laravel.log
 Run all tests:
 
 -   php artisan test
-    Run specific tests:
+
+Run specific tests:
+
 -   php artisan test --filter=HoldTest
 -   php artisan test --filter=OrderTest
 -   php artisan test --filter=PaymentWebhookTest
 
-## **Postman Collection **
+## **Postman Collection**
 
 -   GetPayIn.postman_collection.json
